@@ -8,7 +8,7 @@ api = os.environ["text_api"]
 def text_api(api):
     url = api
     headers = {
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer hf_xxxxxxxxxxxxxxxxxxxx',
         'Content-Type': 'application/json'
     }
     data = {
