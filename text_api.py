@@ -4,7 +4,6 @@ import os
 from setup_api import api_calls
 import logging
 api_calls("models.xlsx")
-api = os.environ["text_api"]
 def text_api(api):
     url = api
     headers = {
@@ -41,7 +40,4 @@ def text_cleaning(data):
             if text[j] == " ":
                 prompt.append(text[j+1:])
                 break
-    for i in prompt:
-        print(i)
     return prompt
-(text_api(api))
