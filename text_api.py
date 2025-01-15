@@ -2,12 +2,12 @@ import requests
 import pandas as pd
 import os
 from setup_api import api_calls
-import logging
+
 api_calls("models.xlsx")
 def text_api(api):
     url = api
     headers = {
-        'Authorization': 'Bearer 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',
+        'Authorization': 'Bearer xxxxxxxxxxxxxxxxxxxx',
         'Content-Type': 'application/json'
     }
     data = {
