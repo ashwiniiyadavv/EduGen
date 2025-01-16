@@ -7,6 +7,7 @@ api_text = os.environ["text_api"]
 def image_api(api):
     API_URL = api
     headers = {"Authorization": "Bearer xxxxxxxxxxxxxxxxxxxx"}
+
     
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)
