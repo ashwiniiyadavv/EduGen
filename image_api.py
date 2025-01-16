@@ -1,11 +1,13 @@
 import requests
 import os
 from text_api import text_api
+
 api = os.environ["image_api"]
 api_text = os.environ["text_api"]
 def image_api(api):
     API_URL = api
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer xxxxxxxxxxxxxxxxxxxx"}
+
     
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)

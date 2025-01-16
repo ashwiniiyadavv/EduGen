@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import os
 from setup_api import api_calls
-import logging
+
 api_calls("models.xlsx")
 def text_api(api):
     url = api
