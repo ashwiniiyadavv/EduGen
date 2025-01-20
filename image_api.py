@@ -6,7 +6,7 @@ from text_api import text_api
 # api_text = os.environ["text_api"]
 def image_api(api,prompt):
     API_URL = api
-    headers = {"Authorization": "Bearer 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"}
+    headers = {"Authorization": "Bearer xxxxxxxxxxxxxxxxxxxxxxxxx"}
 
     
     def query(payload):
