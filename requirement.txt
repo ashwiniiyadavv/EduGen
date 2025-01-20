@@ -4,3 +4,4 @@ logger
 openpyxl
 requests
 cryptography
+pillow

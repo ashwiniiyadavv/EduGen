@@ -1,13 +1,8 @@
 import pandas as pd
 import numpy as np
 import os
-import logging
+from logger import logger
 
-logging.basicConfig(
-format="%(asctime)s - %(levelname)s - %(message)s",
-style="%",
-datefmt="%Y-%m-%d %H:%M",
-level=logging.DEBUG,)
 
 def api_calls(file):
     try:
@@ -25,8 +20,5 @@ def api_calls(file):
         os.environ["image_api"] = image_api
         os.environ["video_api"] = video_api
         # # return api
-    except:
-        print("-"*100)
-        print("Check File Path or Format")
-        logging.error("Path incorrect")
-        print("-"*100)
+    except Exception as e:
+        logger.error("Check File Path or Format",exc_info=True)

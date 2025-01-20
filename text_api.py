@@ -2,13 +2,12 @@ import requests
 import pandas as pd
 import os
 from setup_api import api_calls
-import logging
-api_calls("models.xlsx")
-api = os.environ["text_api"]
+
+# api_calls("models.xlsx")
 def text_api(api):
     url = api
     headers = {
-        'Authorization': 'Bearer xxxxxxxxxxxxxxxxxxxx',
+        'Authorization': 'Bearer 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',
         'Content-Type': 'application/json'
     }
     data = {
@@ -41,7 +40,4 @@ def text_cleaning(data):
             if text[j] == " ":
                 prompt.append(text[j+1:])
                 break
-    for i in prompt:
-        print(i)
     return prompt
-(text_api(api))
