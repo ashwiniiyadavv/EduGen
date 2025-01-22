@@ -23,7 +23,6 @@ def text_api(api):
     }
 
     response = requests.post(url, json=data, headers=headers)
-
     # return (response.json())
     return text_cleaning(response.json())
 
