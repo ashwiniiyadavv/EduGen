@@ -1,0 +1,7 @@
+pandas
+numpy
+logger
+openpyxl
+requests
+cryptography
+pillow
