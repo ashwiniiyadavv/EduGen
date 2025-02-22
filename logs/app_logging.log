@@ -1,2 +1,239 @@
 2025-01-24 09:21:22,047 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
 2025-01-24 09:21:23,160 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 401 28
+2025-01-24 20:49:06,180 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 20:49:07,337 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 401 28
+2025-01-24 20:50:33,476 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 20:50:55,893 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 None
+2025-01-24 20:50:55,911 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 20:51:50,675 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 None
+2025-01-24 20:51:51,252 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 20:55:52,476 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 500 78
+2025-01-24 20:55:52,488 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-01-24 20:55:52,491 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-01-24 20:55:52,491 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-01-24 20:55:52,492 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-01-24 20:55:52,493 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-01-24 20:55:52,494 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-01-24 20:55:52,494 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-01-24 20:55:52,495 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-01-24 20:55:52,495 - PIL.Image - DEBUG - Importing FitsStubImagePlugin
+2025-01-24 20:55:52,496 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-01-24 20:55:52,496 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-01-24 20:55:52,498 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-01-24 20:55:52,498 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-01-24 20:55:52,499 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-01-24 20:55:52,499 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-01-24 20:55:52,499 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-01-24 20:55:52,500 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-01-24 20:55:52,500 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-01-24 20:55:52,503 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-01-24 20:55:52,503 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-01-24 20:55:52,503 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-01-24 20:55:52,504 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-01-24 20:55:52,504 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-01-24 20:55:52,504 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-01-24 20:55:52,504 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-01-24 20:55:52,505 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-01-24 20:55:52,505 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-01-24 20:55:52,505 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-01-24 20:55:52,505 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-01-24 20:55:52,510 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-01-24 20:55:52,510 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-01-24 20:55:52,513 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-01-24 20:55:52,513 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-01-24 20:55:52,513 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-01-24 20:55:52,522 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-01-24 20:55:52,522 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-01-24 20:55:52,522 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-01-24 20:55:52,522 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-01-24 20:55:52,523 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-01-24 20:55:52,523 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-01-24 20:55:52,523 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-01-24 20:55:52,524 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-01-24 20:55:52,524 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-01-24 20:55:52,524 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-01-24 20:55:52,525 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-01-24 20:55:53,653 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-01-24 20:55:53,654 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-01-24 20:55:53,655 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-01-24 20:55:53,655 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-01-24 21:02:11,512 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:02:12,600 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:02:12,606 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:02:13,501 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:05:20,968 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:05:21,891 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:05:21,898 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:05:22,959 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:05:44,380 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:05:45,330 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:05:45,338 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:05:46,262 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:05:48,989 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:08:13,299 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:08:14,183 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:08:14,188 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:08:15,325 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:08:16,819 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:08:17,753 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 429 166
+2025-01-24 21:08:17,755 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-01-24 21:08:17,758 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-01-24 21:08:17,758 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-01-24 21:08:17,759 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-01-24 21:08:17,760 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-01-24 21:08:17,762 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-01-24 21:08:17,762 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-01-24 21:08:17,763 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-01-24 21:08:17,764 - PIL.Image - DEBUG - Importing FitsStubImagePlugin
+2025-01-24 21:08:17,765 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-01-24 21:08:17,765 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-01-24 21:08:17,766 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-01-24 21:08:17,766 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-01-24 21:08:17,767 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-01-24 21:08:17,767 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-01-24 21:08:17,767 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-01-24 21:08:17,768 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-01-24 21:08:17,768 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-01-24 21:08:17,770 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-01-24 21:08:17,770 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-01-24 21:08:17,771 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-01-24 21:08:17,772 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-01-24 21:08:17,772 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-01-24 21:08:17,772 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-01-24 21:08:17,772 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-01-24 21:08:17,773 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-01-24 21:08:17,773 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-01-24 21:08:17,773 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-01-24 21:08:17,773 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-01-24 21:08:17,778 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-01-24 21:08:17,778 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-01-24 21:08:17,779 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-01-24 21:08:17,779 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-01-24 21:08:17,780 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-01-24 21:08:17,786 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-01-24 21:08:17,786 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-01-24 21:08:17,786 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-01-24 21:08:17,786 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-01-24 21:08:17,787 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-01-24 21:08:17,787 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-01-24 21:08:17,788 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-01-24 21:08:17,788 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-01-24 21:08:17,788 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-01-24 21:08:17,789 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-01-24 21:08:17,789 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-01-24 21:08:17,796 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-01-24 21:08:17,797 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-01-24 21:08:17,798 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-01-24 21:08:17,798 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-01-24 21:08:45,325 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:08:46,337 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:08:46,344 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:08:47,765 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 429 166
+2025-01-24 21:08:47,780 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2025-01-24 21:08:47,781 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2025-01-24 21:08:47,781 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2025-01-24 21:08:47,782 - PIL.Image - DEBUG - Importing CurImagePlugin
+2025-01-24 21:08:47,782 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2025-01-24 21:08:47,783 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2025-01-24 21:08:47,784 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2025-01-24 21:08:47,785 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2025-01-24 21:08:47,786 - PIL.Image - DEBUG - Importing FitsStubImagePlugin
+2025-01-24 21:08:47,786 - PIL.Image - DEBUG - Importing FliImagePlugin
+2025-01-24 21:08:47,786 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2025-01-24 21:08:47,787 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2025-01-24 21:08:47,787 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2025-01-24 21:08:47,787 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2025-01-24 21:08:47,788 - PIL.Image - DEBUG - Importing GifImagePlugin
+2025-01-24 21:08:47,788 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2025-01-24 21:08:47,788 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2025-01-24 21:08:47,789 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2025-01-24 21:08:47,790 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2025-01-24 21:08:47,790 - PIL.Image - DEBUG - Importing ImImagePlugin
+2025-01-24 21:08:47,791 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2025-01-24 21:08:47,792 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2025-01-24 21:08:47,792 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2025-01-24 21:08:47,792 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2025-01-24 21:08:47,792 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2025-01-24 21:08:47,792 - PIL.Image - DEBUG - Importing MicImagePlugin
+2025-01-24 21:08:47,793 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2025-01-24 21:08:47,793 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2025-01-24 21:08:47,793 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2025-01-24 21:08:47,797 - PIL.Image - DEBUG - Importing MspImagePlugin
+2025-01-24 21:08:47,798 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2025-01-24 21:08:47,799 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2025-01-24 21:08:47,800 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2025-01-24 21:08:47,800 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2025-01-24 21:08:47,806 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2025-01-24 21:08:47,806 - PIL.Image - DEBUG - Importing PngImagePlugin
+2025-01-24 21:08:47,806 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2025-01-24 21:08:47,806 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2025-01-24 21:08:47,806 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2025-01-24 21:08:47,807 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2025-01-24 21:08:47,807 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2025-01-24 21:08:47,808 - PIL.Image - DEBUG - Importing SunImagePlugin
+2025-01-24 21:08:47,808 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2025-01-24 21:08:47,808 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2025-01-24 21:08:47,809 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2025-01-24 21:08:47,816 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2025-01-24 21:08:47,816 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2025-01-24 21:08:47,817 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2025-01-24 21:08:47,818 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2025-01-24 21:09:08,403 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:09:09,329 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:09:09,336 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:09:10,392 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:09:13,183 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:09:49,926 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 None
+2025-01-24 21:09:52,616 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:21:29,979 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:21:30,914 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:21:30,921 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:21:32,070 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:22:56,005 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:22:57,017 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:22:57,026 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:22:58,079 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:23:19,923 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:23:20,988 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:23:20,999 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:23:22,091 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:24:02,007 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:24:03,072 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:24:03,079 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:24:04,130 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:27:05,642 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:27:06,672 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:27:06,680 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:27:07,904 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:27:33,318 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:27:34,234 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:27:34,238 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:27:35,357 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:28:05,440 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:28:06,400 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:28:06,406 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:28:07,398 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:29:57,076 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:29:57,998 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:29:58,007 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:29:58,981 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:30:17,275 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:30:18,301 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:30:18,339 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:30:19,633 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:31:55,324 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:31:56,386 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:31:56,397 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:31:57,789 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:33:09,434 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:33:10,525 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:33:10,533 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:33:11,722 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:33:59,862 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:34:00,993 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/Qwen/QwQ-32B-Preview/v1/chat/completions HTTP/1.1" 200 2733
+2025-01-24 21:34:01,000 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:34:02,299 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 120421
+2025-01-24 21:34:04,758 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:34:06,018 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 200 114200
+2025-01-24 21:34:08,460 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api-inference.huggingface.co:443
+2025-01-24 21:34:09,417 - urllib3.connectionpool - DEBUG - https://api-inference.huggingface.co:443 "POST /models/black-forest-labs/FLUX.1-dev HTTP/1.1" 429 166

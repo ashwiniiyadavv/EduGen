@@ -5,3 +5,4 @@ openpyxl
 requests
 cryptography
 pillow
+opencv-python

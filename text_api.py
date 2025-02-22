@@ -7,7 +7,7 @@ from setup_api import api_calls
 def text_api(api):
     url = api
     headers = {
-        'Authorization': 'Bearer xxxxxxxxxxxxxxxxxxxxxxxxx',
+        'Authorization': 'Bearer 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',
         'Content-Type': 'application/json'
     }
     data = {
